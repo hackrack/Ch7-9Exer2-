@@ -1,0 +1,75 @@
+.wholebody{
+  border: 0.6px solid;
+  border-radius: 10px;
+  margin-right: 830px;
+  padding-left: 20px;
+  padding-right: 40px;
+  position: relative;
+
+}
+.inputs{
+  height: 17px;
+  border: 1px solid;
+  position: absolute;
+  left: 149px;
+  padding-left: 119px;
+  margin-right: 20px;
+}
+.inputs1{
+  height: 17px;
+  border: 1px solid;
+  position: absolute;
+  left: 149px;
+  padding-left: 119px;
+  margin-right: 20px;
+  margin-top: -15px;
+}
+.span1{
+padding-left: 70px;
+font-size: 17px;;
+}
+.span2{
+padding-left: 65px;
+font-size: 17px;;
+}
+.span3{
+padding-left: 48px;
+font-size: 17px;;
+}
+.span4{
+padding-left: 22px;
+font-size: 17px;;
+}
+.span5{
+padding-left: 45px;
+font-size: 17px;;
+}
+.span6{
+padding-left: 8px;
+font-size: 17px;;
+}
+.button{
+  height: 22px;
+  width: 150px;
+  margin-left: 130px;
+  background-color: #d3d3d3;
+}
+.CrCard{
+  position: absolute;
+  left: 140px;
+  background-color: #d3d3d3;
+  height: 20px;
+  width: 140px;
+}
+.contactBox{
+  border: 1px solid;
+  margin-left: 130px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  position: relative;
+}
+.gender{
+  position: absolute;
+  top: 5px;
+  padding-left: 0px;
+}

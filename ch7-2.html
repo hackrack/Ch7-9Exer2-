@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Payment</title>
+    <link rel="stylesheet" href="file:///Users/umedjonibrohimov/Desktop/C4Q/HTML/oct16/ch7part2/payment-form.css">
+  </head>
+  <body>
+    <div class="wholebody">
+    <form>
+      <h1>Payment Form</h1>
+      <p>Required fields followed by <strong><abbr title="required">*</abbr></strong>.</p>
+      <section>
+        <h2>Contact information</h2>
+        <fieldset class="contactBox" style="width: 220px; height: 70px;">
+          <legend>Title</legend>
+          <ul class="gender">
+              <li type="none">
+                <label for="title_1">
+                  <input type="radio" id="title_1" name="title" value="M.">
+                  Mister
+                </label>
+              </li>
+              <li  type="none">
+                <label for="title_2">
+                  <input type="radio" id="title_2" name="title" value="Ms.">
+                  Miss
+                </label>
+              </li>
+          </ul>
+        </fieldset>
+        <p>
+          <label for="name">
+            <span class="span1">Name:<strong><abbr title="required">*</abbr></strong></span>
+          </label>
+          <input class="inputs" type="text" id="name" name="username">
+        </p>
+        <p>
+          <label for="mail">
+            <span class="span2">E-mail:<strong><abbr title="required">*</abbr></strong></span>
+          </label>
+          <input class="inputs" type="email" id="mail" name="usermail">
+        </p>
+        <p>
+          <label for="pwd">
+            <span class="span3">Password:<strong><abbr title="required">*</abbr></strong></span>
+          </label>
+          <input class="inputs" type="password" id="pwd" name="password">
+        </p>
+            <h2>Payment information</h2>
+            <p>
+              <label for="card">
+                <span class="span5">Card type:</span>
+              </label>
+              <select class="CrCard" id="card" name="usercard">
+                <option value="visa">Visa</option>
+                <option value="mc">Mastercard</option>
+                <option value="amex">American Express</option>
+              </select>
+            </p>
+            <p>
+              <label for="number">
+                <span class="span4">Card number:<strong><abbr title="required">*</abbr></strong></span>
+              </label>
+                <input class="inputs" type="text" id="number" name="cardnumber">
+            </p>
+            <p>
+              <label for="date">
+                <span class="span6">Expiration date:<strong><abbr title="required">*</abbr></strong><br></span>
+                <em>formatted as mm/yy</em>
+              </label>
+              <input class="inputs1" type="text" id="date" name="expiration">
+            </p>
+    </section>
+    <p> <button class="button" type="submit">Validate the payment</button> </p>
+    </form>
+    </div>
+  </body>
+</html>
